@@ -1,7 +1,7 @@
 from pymongo import MongoClient
 import os
 
-client = MongoClient("mongodb+srv://admin:james@cluster0.ujzjm.mongodb.net/account?retryWrites=true&w=majority")
+client = MongoClient("")
 # database and collection code goes here
 db = client.account
 #coll_incomes = db.incomes
